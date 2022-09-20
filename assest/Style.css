@@ -1,0 +1,96 @@
+.section1 {
+  position: relative;
+}
+.section1 .phone {
+  position: absolute;
+  left: 60%;
+  width: 100%;
+}
+.section1 .phone img {
+  width: 45%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+.section1 .logo {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+.section1 .logo img {
+  width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.section1 .logo img:hover {
+  transform: scale(1.2);
+}
+.section1 .textinp {
+  background-color: black;
+  border-radius: 20px;
+  padding: 80px;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+.section1 .textinp .phonetext {
+  position: absolute;
+  top: 25%;
+  right: 12%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.section1 .textinp .phonetext span {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(55, 55, 55);
+}
+.section1 .textinp .phonetext i {
+  font-size: 40px;
+  color: rgb(55, 55, 55);
+}
+.section1 .textinp .head {
+  font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
+}
+.section1 .textinp #consul {
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  left: 78%;
+  bottom: 20%;
+  font-size: 20px;
+  transform: scale(1.1);
+}
+.section1 .textinp form {
+  margin-top: 30px;
+}
+.section1 .textinp form i {
+  margin-right: 10px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.section1 .textinp form input {
+  border-radius: 20px;
+  outline: none;
+  width: 30%;
+  height: 50px;
+  padding-left: 15px;
+  border: none;
+}
+.section1 .textinp .btn button {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px 70px;
+  border: none;
+  background-color: whitesmoke;
+  font-family: "Quicksand", sans-serif;
+  transition: 0.5s;
+}
+.section1 .textinp .btn button:hover {
+  background-color: rgb(81, 80, 80);
+  color: white;
+}
+.section1 .textinp .btn button i {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
